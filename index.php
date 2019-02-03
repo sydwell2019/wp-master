@@ -1,8 +1,8 @@
 
 <?php get_header(); ?>
 
-<!--  Test Bootstrap Styling: Needs to be a in container class  -->
-<div class="jumbotron">
+<!--  -->
+<div >
 The Content Lead: Call to Action 
 </div>
 
