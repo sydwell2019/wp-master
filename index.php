@@ -14,6 +14,7 @@
             <!-- Notice your can use the snippets as per document WordPress Theme Snippets-->
             <?php bloginfo('name'); ?>
         </h1>
+        <h2>tag line</h2>
             <!-- Following 7 lines of code is used to list all the post you have defined in the admin interface -->
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
