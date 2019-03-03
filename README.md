@@ -1,3 +1,3 @@
-# wp_master
+# wp-master
 
 What are we doing today?
