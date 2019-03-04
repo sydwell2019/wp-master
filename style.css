@@ -1,3 +1,24 @@
 /*
-Theme Name: brand-theme-v1
+Theme Name: brand-theme-v2
+
 */
+
+body {
+    color: brown;
+    background-color: darksalmon;
+}
+
+a:link,
+a:visited {
+    color: #006ec3;
+}
+
+p {
+    line-height: 1.65em;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar-inverse {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
