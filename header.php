@@ -15,12 +15,5 @@
     <h5> <?php bloginfo('description'); 
                echo ('Coded in header.php'); ?> </h5>
     <hr>
-    <!-- Tha actual location of our primary menu -->
-  
-    <nav class="site-nav">
-        <?php 
-            $args = array('theme_location' => 'primary');
-        ?>
-        <?php wp_nav_menu($args); ?>
-    </nav>
+
  
