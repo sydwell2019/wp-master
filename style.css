@@ -12,6 +12,13 @@ a:link,
 a:visited {
     color: #006ec3;
 }
+li {
+    display:block;
+    white-space:nowrap;
+   /* // font-size: 20; */
+    float:left;
+    margin:20px;
+}
 
 p {
     line-height: 1.65em;

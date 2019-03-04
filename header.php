@@ -8,7 +8,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class();?> >
-<div >
+<div class='container'>
     <h1> 
         <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
     </h1>
