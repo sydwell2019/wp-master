@@ -19,25 +19,9 @@ The Content Lead: Call to Action
 <?php endwhile; ?>
 <?php endif; ?> -->
 
-<?php $args = array(
-	'depth'        => 0,
-	'show_date'    => '',
-	'date_format'  => get_option('date_format'),
-	'child_of'     => 0,
-	'exclude'      => '',
-	'include'      => '',
-	'title_li'     => __(''),
-	'echo'         => 1,
-	'authors'      => '',
-	'sort_column'  => 'menu_order, post_title',
-	'link_before'  => '',
-	'link_after'   => '',
-	'walker'       => '',
-	'post_type'    => 'page',
-        'post_status'  => 'publish' 
-); ?>
+
 <div class=row>
-<?php wp_list_pages( $args ); ?> 
+<?php wp_list_pages(  ); ?> 
 </div>
  <hr style='float: clear'>
 <?php
